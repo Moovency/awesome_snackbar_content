@@ -16,6 +16,11 @@ class AwesomeSnackbarContent extends StatelessWidget {
   /// elevation: 0.0
   /// [inMaterialBanner = true]
 
+  /// /// `IMPORTANT NOTE` for AlertDialog properties before putting this in `content`
+  /// backgroundColor: Colors.transparent
+  /// elevation: 0.0
+  /// [inAlertDialog = true]
+
   /// title is the header String that will show on top
   final String title;
 
