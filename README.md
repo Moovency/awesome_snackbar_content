@@ -1,4 +1,4 @@
-A package that lets you uplift your SnackBar or MaterialBanner experience in the app.
+A package that lets you uplift your SnackBar, MaterialBanner or AlertDialog experience in the app.
 
 <img src="https://user-images.githubusercontent.com/43790152/169776704-cc6ac8d8-ebd7-4cf1-8239-5d4678b65bc4.png" />
 
