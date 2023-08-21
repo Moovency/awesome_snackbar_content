@@ -8,6 +8,7 @@ A package that lets you uplift your SnackBar, MaterialBanner or AlertDialog expe
 - `color`: Color of SnackBar body
 - `contentType`: ContentType class reflecting failure, success, help or warning.
 - `inMaterialBanner`: Simply configure the working according to `showMaterialBanner`
+- `inAlertDialog`: Simply configure the working according to `showDialog`
 
 ## Overall Look'n Feel
 https://user-images.githubusercontent.com/43790152/200166529-51927c9d-66a6-4f76-b8f7-990680db2eba.mov
