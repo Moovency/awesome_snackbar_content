@@ -31,6 +31,9 @@ class AwesomeSnackbarContent extends StatelessWidget {
   /// if you want to use this in materialBanner
   final bool inMaterialBanner;
 
+  /// if you want to use this in materialBanner
+  final bool inAlertDialog;
+
   /// if you want to customize the font size of the title
   final double? titleFontSize;
 
@@ -46,6 +49,7 @@ class AwesomeSnackbarContent extends StatelessWidget {
     required this.message,
     required this.contentType,
     this.inMaterialBanner = false,
+    this.inAlertDialog = false,
   }) : super(key: key);
 
   @override
@@ -183,6 +187,9 @@ class AwesomeSnackbarContent extends StatelessWidget {
                         if (inMaterialBanner) {
                           ScaffoldMessenger.of(context)
                               .hideCurrentMaterialBanner();
+                          return;
+                        } else if (inAlertDialog) {
+                          Navigator.pop(context);
                           return;
                         }
                         ScaffoldMessenger.of(context).hideCurrentSnackBar();
