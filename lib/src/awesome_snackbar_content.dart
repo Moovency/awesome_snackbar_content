@@ -219,6 +219,7 @@ class AwesomeSnackbarContent extends StatelessWidget {
                       fontSize: messageFontSize ?? size.height * 0.016,
                       color: Colors.white,
                     ),
+                    softWrap: true,
                   ),
                 ),
                 SizedBox(
